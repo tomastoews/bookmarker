@@ -1,0 +1,62 @@
+
+/* 
+  Primary Color: #51bb7b
+  Selected Color: #267048
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 850px;
+  margin: 50px auto 0 auto;
+}
+
+.jumbotron {
+  padding: 50px 250px;
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: .28571429rem;
+}
+
+.jumbotron-small {
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: .28571429rem;
+  padding: 40px 40px;
+  margin: 30px auto;
+  width: 75%;
+}
+
+.delete-button,
+.open-button {
+  float: right;
+  margin: 0 5px;
+}
+
+.container label {
+  text-align: left;
+}
+
+#bookmarks-results {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.button#addSiteButton,
+.button.open-button {
+  background: #51bb7b!important;
+}
+
+.button#addSiteButton:hover,
+.button.open-button:hover {
+  background: #267048!important;
+}
+
+#inputSiteName:focus,
+#inputSiteURL:focus {
+  border: 1px solid #51bb7b;
+}
