@@ -69,7 +69,7 @@ function fetchBookmarks(){
       var siteName = bookmarks[i].name;
       var siteURL = bookmarks[i].url;
   
-      bookmarksResults.innerHTML = `
+      bookmarksResults.innerHTML += `
         <div class="jumbotron-small">
           <h2>
             ${siteName}
